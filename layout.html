@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Office Quiz</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand" href="#">Home</a>
+        <div class="collaspe-navbar-collapse" id="navbarNavAlt">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#">Instructions</a>
+                <a class="nav-item nav-link" href="#">Quiz</a>
+                <a class="nav-item nav-link mr-sm-2" href="#">About Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Introduction -->
+    <h1>Welcome to the Office Quiz!</h1>
+    <h5>This a personal project to learn more about JS, HTML, CSS, jQuery</h5>
+    <h5>To view other personal projects, please view my <a href="https://github.com/philiplee13">Github</a></h5>
+    <img src="https://img.nbc.com/sites/nbcunbc/files/images/2016/1/19/MDot-TheOffice-640x360-MP.jpg"
+        alt="the-office-photo">
+    <br>
+    <h3>Instructions</h3>
+    <ul>
+        <li>Welcome to a quick personality quiz with The Office!</li>
+        <li>It's quite simple - based on the question given, choose the response that you'd most likely respond like!
+        </li>
+        <li>At the end, you'll get a picture of the face who's character you match!</li>
+        <li>Please note that this is stricly for fun and games, not to be taken seriously at all</li>
+    </ul>
+
+
+    <br>
+    <!-- Quiz -->
+    <h3 id="quiz">Quiz!</h3>
+    <br>
+    <h4 id="questions">Question</h4>
+    <br>
+    <div class="question-answers">
+        <button id="option-0"><span id="choice-0"></span></button>
+        <button id="option-1"><span id="choice-1"></span></button>
+        <button id="option-2"><span id="choice-2"></span></button>
+    </div>
+    <br>
+    <footer>
+        <h4 id="question-tracker">Question x of y</h4>
+    </footer>
+
+
+
+    <script src="index.js"></script>
+    <!-- bootstrap js jquery-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
