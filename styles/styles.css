@@ -7,3 +7,7 @@
 .navbar-light .navbar-nav .nav-link {
     color: white;
 }
+
+#quiz-reset {
+    display: none;
+}
